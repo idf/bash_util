@@ -1,3 +1,4 @@
+# http://www.tldp.org/LDP/abs/html/comparison-ops.html
 function conditions() {
   if [ "$a" -eq "$b" ]; then
     ;
