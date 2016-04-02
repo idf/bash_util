@@ -17,3 +17,9 @@ function write_file() {
   # param 2: output file path
   for i in `seq $1`; do echo "$i"; done > $2
 }
+
+function read_line_file() {
+  # param 1: index start from 0
+  return sed "$[$1 + 1]q;d" $2
+}
+
