@@ -16,3 +16,15 @@ function conditions() {
     ;
   fi 
 }
+
+function files() {
+  # check file existence
+  if [ -e "/file/path" ]; then
+    ;
+  fi
+  
+  # check dir existence
+  if [ -d "/dir/path" ]; then
+    ;
+  fi
+}
